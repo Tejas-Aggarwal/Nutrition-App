@@ -1,3 +1,5 @@
+
+
 .gradient-custom-2 {
     /* fallback for old browsers */
     background: #fccb90;
@@ -64,3 +66,62 @@ a{
       background-color: black;
       color:white;
     }
+
+#craving-header{
+  margin-left:20px;
+  color:#9D5712;
+  font-weight: 700;
+  margin-top:200px;
+}
+
+.get-started{
+  margin-left:20px;
+  font-size: 1.3rem;
+  margin-top:20px;
+}
+
+input[type="search"] {
+  margin-left:20px;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+input[type="search"]:focus{
+  
+  border-color: #9D5712
+}
+
+button.search {
+  padding: 10px 20px;
+  font-size: 16px;
+  color: black;
+  background-color: #f44336;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+button.search:hover {
+  background-color: black;
+  color:white;
+}
+
+button.search:focus {
+  outline: none;
+}
+
+
+input[type="search"],
+button.search {
+  border-radius: 50px;
+}
+
+.food {
+  width: 100%;
+  height: 80%;
+  object-fit: contain;
+}
